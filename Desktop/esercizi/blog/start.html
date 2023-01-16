@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>HTML Lesson</title>
+  </head>
+  <header>
+    <div><img src="laptop.png" alt="laptop" /></div>
+
+    <div>
+      <h1>Il blog di Filippo Scibetta</h1>
+      <h2>cerchiamo di creare una bozza di blog</h2>
+    </div>
+    <nav>
+      <h1>Navigazione:</h1>
+      <div>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">Gli autori</a></li>
+          <li><a href="/refactoring">Progetti</a></li>
+          <li><a href="/archives">Archivio</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <h1>L'ultimo post</h1>
+    <article>
+      <header>
+        <time datetime="2010-11-22" pubdate>Lunedì 22 Novembre</time>
+        <h2>Nuove scoperte sul tag video!</h2>
+      </header>
+      <p>
+        Attraverso un utilizzo sapiente del tag canvas è possibile leggere uno
+        stream di dati proveniente da un tag video e
+        <mark>manipolarlo in tempo reale</mark>.
+      </p>
+      
+        <article>
+          <h4>
+            <time datetime="2010-11-23" pubdate>Martedì 23 Novembre</time>
+            Sandro Paganotti ha scritto:
+          </h4>
+          <p>Bellissimo! Grazie per la segnalazione!</p>
+          <footer>
+            <address>
+              <a href="mailto:sandro.paganotti@gmail.com">Sandro Paganotti</a>
+            </address>
+          </footer>
+        </article>
+      </section>
+    </article>
+  </section>
+  <section>
+    <h1>Post meno recenti</h1>
+    <article>
+      <header>
+        
+        <h2>Section e article: impariamo a conoscerli</h2>
+      </header>
+      <p>
+        Corre molta differenza tra questi due tag HTML5, se non dal punto di
+        vista della presentazione, quantomeno da quello semantico...
+        <a href="2010/11/10/section-article">continua a leggere</a>
+      </p>
+      <footer>
+        <address><a href="mailto:nonesiste@non.st">Francesca Resta</a></address>
+      </footer>
+    </article>
+    <article>
+      <header>
+        
+        <h1>Chi ha paura del tag menu?</h1>
+      </header>
+      <p>
+        Caduto in disgrazia durante il regno HTML4 è stato riabilitato a pieni
+        voti da queste specifiche, scopriamone insieme l'utilizzo...
+        <a href="2010/11/01/menu-tag">continua a leggere</a>
+      </p>
+      <footer>
+        <address><a href="mailto:nonesiste@non.st">Cesare Lamanna</a></address>
+      </footer>
+    </article>
+  </section>
+  <aside>
+    
+    <section>
+      <h2>Ricerca nel form:</h2>
+      <form name="ricerca" method="post" action="/search">
+        <label>
+          Parola chiave:
+          <input
+            type="search"
+            autocomplete="on"
+            placeholder="article, section, ..."
+            name="keyword"
+            required
+            maxlength="50"
+          />
+        </label>
+        <input type="submit" value="ricerca" />
+        <div> 
+          <br>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+      </form>
+    </section>
+  </aside>
+  <footer>
+    <dt>Creato da</dt>
+    <dd>
+      <address>Filippo Scibetta</address>
+    </dd>
+  </footer>
+
+  <body></body>
+</html>
